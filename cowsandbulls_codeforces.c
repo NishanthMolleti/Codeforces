@@ -5,7 +5,7 @@ main()
     scanf("%d%d",&a,&d);
     t1=a;
     t2=b;
-    if(a/1000==d/1000)
+    if(a/1000==d/1000)                                              //seperating each digit .
         b=b+1;
         a1=a/1000;
         d1=d/1000;
@@ -27,7 +27,7 @@ main()
         b=b+1;
         a4=a;
         d4=d;
-    if(a1==d2||a1==d3||a1==d4)
+    if(a1==d2||a1==d3||a1==d4)                                          //checking conditions for each digit.
         c=c+1;
     if(a2==d1||a2==d3||a2==d4)
         c=c+1;
